@@ -19,6 +19,7 @@
 		39053737194CAF40002FC0ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3905371F194CAF40002FC0ED /* UIKit.framework */; };
 		3905373F194CAF40002FC0ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3905373D194CAF40002FC0ED /* InfoPlist.strings */; };
 		39053741194CAF40002FC0ED /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39053740194CAF40002FC0ED /* ToDoListTests.m */; };
+		3905374B194CB299002FC0ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3905374A194CB299002FC0ED /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		3905373C194CAF40002FC0ED /* ToDoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoListTests-Info.plist"; sourceTree = "<group>"; };
 		3905373E194CAF40002FC0ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		39053740194CAF40002FC0ED /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		3905374A194CB299002FC0ED /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				3905372A194CAF40002FC0ED /* HelloWorldAppDelegate.h */,
 				3905372B194CAF40002FC0ED /* HelloWorldAppDelegate.m */,
+				3905374A194CB299002FC0ED /* Main.storyboard */,
 				3905372D194CAF40002FC0ED /* Images.xcassets */,
 				39053722194CAF40002FC0ED /* Supporting Files */,
 			);
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3905374B194CB299002FC0ED /* Main.storyboard in Resources */,
 				39053726194CAF40002FC0ED /* InfoPlist.strings in Resources */,
 				3905372E194CAF40002FC0ED /* Images.xcassets in Resources */,
 			);
