@@ -20,6 +20,9 @@
 		3905373F194CAF40002FC0ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3905373D194CAF40002FC0ED /* InfoPlist.strings */; };
 		39053741194CAF40002FC0ED /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39053740194CAF40002FC0ED /* ToDoListTests.m */; };
 		3905374B194CB299002FC0ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3905374A194CB299002FC0ED /* Main.storyboard */; };
+		39371B4719536D9800AA1FE3 /* HelloWorldAddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39371B4619536D9800AA1FE3 /* HelloWorldAddToDoItemViewController.m */; };
+		39371B5619536FB900AA1FE3 /* HelloWorldTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39371B5519536FB900AA1FE3 /* HelloWorldTableViewController.m */; };
+		39371B591953751D00AA1FE3 /* HelloWorldToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 39371B581953751D00AA1FE3 /* HelloWorldToDoItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,12 @@
 		3905373E194CAF40002FC0ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		39053740194CAF40002FC0ED /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
 		3905374A194CB299002FC0ED /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		39371B4519536D9800AA1FE3 /* HelloWorldAddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldAddToDoItemViewController.h; sourceTree = "<group>"; };
+		39371B4619536D9800AA1FE3 /* HelloWorldAddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorldAddToDoItemViewController.m; sourceTree = "<group>"; };
+		39371B5419536FB900AA1FE3 /* HelloWorldTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldTableViewController.h; sourceTree = "<group>"; };
+		39371B5519536FB900AA1FE3 /* HelloWorldTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTableViewController.m; sourceTree = "<group>"; };
+		39371B571953751D00AA1FE3 /* HelloWorldToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldToDoItem.h; sourceTree = "<group>"; };
+		39371B581953751D00AA1FE3 /* HelloWorldToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloWorldToDoItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,9 +118,15 @@
 		39053721194CAF40002FC0ED /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				39371B571953751D00AA1FE3 /* HelloWorldToDoItem.h */,
+				39371B581953751D00AA1FE3 /* HelloWorldToDoItem.m */,
 				3905372A194CAF40002FC0ED /* HelloWorldAppDelegate.h */,
 				3905372B194CAF40002FC0ED /* HelloWorldAppDelegate.m */,
+				39371B5419536FB900AA1FE3 /* HelloWorldTableViewController.h */,
+				39371B5519536FB900AA1FE3 /* HelloWorldTableViewController.m */,
 				3905374A194CB299002FC0ED /* Main.storyboard */,
+				39371B4519536D9800AA1FE3 /* HelloWorldAddToDoItemViewController.h */,
+				39371B4619536D9800AA1FE3 /* HelloWorldAddToDoItemViewController.m */,
 				3905372D194CAF40002FC0ED /* Images.xcassets */,
 				39053722194CAF40002FC0ED /* Supporting Files */,
 			);
@@ -245,7 +260,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3905372C194CAF40002FC0ED /* HelloWorldAppDelegate.m in Sources */,
+				39371B5619536FB900AA1FE3 /* HelloWorldTableViewController.m in Sources */,
 				39053728194CAF40002FC0ED /* main.m in Sources */,
+				39371B4719536D9800AA1FE3 /* HelloWorldAddToDoItemViewController.m in Sources */,
+				39371B591953751D00AA1FE3 /* HelloWorldToDoItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +460,7 @@
 				39053746194CAF40002FC0ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39053747194CAF40002FC0ED /* Build configuration list for PBXNativeTarget "ToDoListTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +469,7 @@
 				39053749194CAF40002FC0ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
